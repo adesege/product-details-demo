@@ -24,11 +24,13 @@ $ npm install -g pnpm // Install pnpm globally if you don't have it installed al
 
 $ pnpm install // Run this command to install dependencies
 
-$ pnpm start:dev // To start the app in development environment. The application will be running on http://localhost:9000
+$ pnpm start:dev // To start the app in development environment.
 
 // If you are deploying for production
 
 $ pnpm build // To build the app. Copy the contents of the "build" directory to a static server. vercel.com is recommended.
 ```
+
+> Once the app is running, you can access the app on http://localhost:9000 in development environment.
 
 See [https://pnpm.js.org/en/motivation](https://pnpm.js.org/en/motivation) for why pnpm is used for this project.
