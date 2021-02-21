@@ -15,14 +15,14 @@ Since this project is small, only `atoms` folder structure was implemented.
 
 # Installation
 
-```shell
+```js
 $ npm install -g pnpm // Install pnpm globally if you don't have it installed already
 
 $ pnpm install // Run this command to install dependencies
 
-$ pnpm start:dev // To start the app in development environment
+$ pnpm start:dev // To start the app in development environment. The application will be running on http://localhost:9000
 
-# If you are deploying for production
+// If you are deploying for production
 
 $ pnpm build // To build the app. Copy the contents of the "build" directory to a static server. vercel.com is recommended.
 ```
