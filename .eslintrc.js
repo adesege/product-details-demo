@@ -30,6 +30,10 @@ module.exports = {
     },
   },
   rules: {
+    'react/button-has-type': 0,
+    'react/require-default-props': 0,
+    'import/prefer-default-export': 0,
+    'no-param-reassign': 0,
     'react/jsx-props-no-spreading': 0,
     'react/destructuring-assignment': 0,
     'react/jsx-uses-react': 'off',
@@ -43,12 +47,4 @@ module.exports = {
       },
     ],
   },
-  overrides: [
-    {
-      files: ['*.tsx'],
-      rules: {
-        'import/prefer-default-export': 0,
-      },
-    },
-  ],
 };

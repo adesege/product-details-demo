@@ -2,8 +2,15 @@ module.exports = {
   purge: ['./src/**/*.tsx'],
   darkMode: false,
   theme: {
-    extend: {},
+    container: {
+      padding: '2rem',
+      center: true,
+    },
   },
-  variants: {},
+  variants: {
+    extend: {
+      margin: ['last'],
+    },
+  },
   plugins: [],
 };

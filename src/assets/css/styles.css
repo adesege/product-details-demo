@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+:root {
+  --app-color-primary: #69ff46;
+}

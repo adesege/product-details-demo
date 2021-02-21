@@ -1,0 +1,10 @@
+.app-img {
+  width: 588px;
+  max-width: 100%;
+
+  @apply m-auto mb-8 last:mb-0;
+}
+
+.sizes {
+  flex: 1;
+}

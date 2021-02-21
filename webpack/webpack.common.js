@@ -79,7 +79,16 @@ module.exports = {
         ],
       },
       {
-        test: /\.s?css$/i,
+        test: /\.module\.css$/i,
+        use: [
+          isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+          { loader: 'css-loader', options: { modules: true } },
+          'postcss-loader',
+        ],
+      },
+      {
+        test: /\.css$/i,
+        exclude: /\.module\.css$/i,
         use: [
           isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
           'css-loader',

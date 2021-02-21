@@ -1,0 +1,16 @@
+.app-button {
+  height: 70px;
+
+  @apply block uppercase font-bold;
+}
+
+.primary {
+  background-color: var(--app-color-primary);
+  transition: all .5;
+
+  @apply border border-transparent text-black focus:outline-none hover:bg-white hover:border-black focus:opacity-60;
+}
+
+.block {
+  @apply w-full;
+}

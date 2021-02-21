@@ -1,0 +1,24 @@
+.header {
+  border-bottom: 1px solid #cecece;
+
+  @apply py-8 px-12 cursor-pointer;
+}
+
+.openAccordion {
+  border-bottom: none;
+}
+
+.accordion {
+  border-top: 1px solid #cecece;
+}
+
+.item {
+  height: 0px;
+  overflow: hidden;
+  transition: all .2s;
+}
+
+.item.open {
+  height: 100%;
+  overflow: auto;
+}

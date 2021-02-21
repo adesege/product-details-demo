@@ -27,6 +27,7 @@
     }
   },
   "include": [
+    "src/data/**/*",
     "src/**/*.tsx",
     "*.ts"
   ],
