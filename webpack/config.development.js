@@ -7,7 +7,7 @@ module.exports = webpackMerge(configCommon, {
   devServer: {
     contentBase: './src/static',
     compress: true,
-    port: 9000,
+    port: 3900,
     historyApiFallback: true,
   },
   plugins: [
